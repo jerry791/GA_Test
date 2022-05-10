@@ -17,9 +17,9 @@ gtag("config", "你的追蹤編號");
 function trackCTA(){
 	// 送出事件紀錄
 	gtag("event", "點擊", {
-		"event_category":"CTA",
+		"event_category":"CTA",//事件類別:自己決定
 		"event_label":"頁面標題",
-		"value": 1
+		"value": 1//點擊價值:自己決定
 	});
 	alert("Event Sent!");
 }
